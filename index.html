@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix UI clone</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <span> <img width="55" src="media/img/logo.svg"></span>
+            <div>
+                <button class="btn">English</button>
+                <button class="btn btn-red-sm">Sign In</button>
+            </div>
+        </nav>
+        <div class="box"></div>
+        <div class="hero">
+            <span>Unlimited movies, shows, and more </span>
+            <span>Starts at ₹149. Cancel at any time.</span>
+            <span>Ready to watch? Enter your email to create or restart your membership.</span> 
+            <div class="hero-button">
+                <input type="text" placeholder="Email Address">
+                <button class="btn btn-red">Get Started &gt;</button>
+            </div>
+        </div>
+        
+    </div>
+     <div class="separation"></div>
+     <section class="trending-row">
+        <h2>Trending Now</h2>
+
+        <div class="carousel-wrapper">
+        <div class="cards" id="trending-cards">
+            <!-- Card 1 -->
+            <article class="card">
+            <img src="https://cdn.mos.cms.futurecdn.net/viaQnQ9ztfL2cf3dsUoN3N-1920-80.jpg" alt="Poster 1" />
+            <span class="rank">1</span>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="card">
+            <img src="https://images.justwatch.com/poster/330850989/s718/dude-2025.jpg" alt="Poster 2" />
+            <span class="rank">2</span>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="card">
+            <img src="https://townsquare.media/site/712/files/2020/07/Top-10-Netflix-Originals.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89" alt="Poster 3" />
+            <span class="rank">3</span>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="card">
+            <img src="https://readysteadycut.com/wp-content/smush-webp/2018/04/dude-1024x576.jpg.webp" alt="Poster 4" />
+            <span class="rank">4</span>
+            </article>
+
+            <!-- Card 5 -->
+            <article class="card">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/best-movies-on-netflix-the-mother-6478b59716093.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Poster 5" />
+            <span class="rank">5</span>
+            </article>
+
+            <!-- Card 6 -->
+            <article class="card">
+            <img src="https://th.bing.com/th/id/OIP.b9g-eM9O6L-MoVcNmfdDgwAAAA?w=186&h=118&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Poster 6" />
+            <span class="rank">6</span>
+            </article>
+
+            <!-- Card 7 -->
+            <article class="card">
+            <img src="https://th.bing.com/th/id/OIP.WGYdCYPRbqMvvzRfC6VPpQAAAA?w=195&h=118&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Poster 6" />
+            <span class="rank">7</span>
+            </article>
+        </div>
+
+        <!-- Right arrow (optional JS below will make it scroll) -->
+        <button class="navbtn" id="next-btn">&#8250;</button>
+        </div>
+    </section>
+
+    <h2 class="more">More reasons to join</h2>
+    <section class="first">
+        
+        <div>
+            <span>Enjoy on your Tv</span>
+            <span>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
+        </div>
+        <div class="secImg">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" autoplay loop muted></video>
+
+        </div>
+    </section>
+    <section class="second">
+        <div class="secImg">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+        </div>
+        <div>
+            <span>Download your shows to watch offline</span>
+            <span>Save your favourites easily and always have something to watch.</span>
+        </div>
+    </section>
+    <section class="third">
+        <div>
+            <span>Watch everywhere</span>
+            <span>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</span>
+        </div>
+        <div class="secImg">
+             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" autoplay loop muted></video>
+        </div>
+    </section>
+    <section class="fourth">
+        <div class="secImg">
+            <img src="https://occ-0-2849-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d"
+                alt="">
+        </div>
+        <div>
+            <span>Create profiles for kids</span>
+            <span>Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</span>
+        </div>
+    </section>
+    <div class="line"></div>
+    <section>
+        <div class="hero-end">
+            <span>Ready to watch? Enter your email to create or restart your membership.</span> 
+            <div class="hero-button">
+                <input type="text" placeholder="Email Address">
+                <button class="btn btn-red">Get Started &gt;</button>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faqbox">
+            <span> what is Netflix</span>
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+        </div>
+        <div class="faqbox">
+            <span> How Much does Netflix cost?</span>
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+        </div>
+        <div class="faqbox">
+            <span> Where can I watch</span>
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+        </div>
+        <div class="faqbox">
+            <span> How do I cancel</span>
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+        </div>
+        <div class="faqbox">
+            <span> what can I watch on Netflix?</span>
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+        </div>
+        <div class="faqbox">
+            <span> Is Netflix good for kids</span>
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+        </div>
+        
+    </section>
+    <footer>
+        <div class="question">
+            Question? 000-000-000-0000
+        </div>
+        <div class="footer">
+            <div class="footer-item">
+                <a href="faq">FAQ</a>
+                <a href="faq">Media Centre</a>
+                <a href="faq">Ways to Watch</a>
+                <a href="faq">Speed Test</a>
+            </div>
+            <div class="footer-item">
+                <a href="faq">Help  centre</a>
+                <a href="faq">Jobs</a>
+                <a href="faq">Legal Notice</a>
+                <a href="faq">Cookie Preferences</a>
+               
+            </div>
+            <div class="footer-item">
+                <a href="faq">Account</a>
+                <a href="faq">Way to Watch</a>
+                <a href="faq">Corporate Information</a>
+                <a href="faq">Only on Netflix</a>
+                
+            </div>
+            <div class="footer-item">
+                <a href="faq">Privacy</a>
+                <a href="faq">Term to use</a>
+                <a href="faq">Contact us</a>
+             
+                
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
