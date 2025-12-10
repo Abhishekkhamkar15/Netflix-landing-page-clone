@@ -27,7 +27,8 @@ A responsive clone of the Netflix landing page built using **HTML** and **CSS** 
 ---
 
 deploy on vercel
-netflix-landing-page-clone-gamma.vercel.app
+
+link:- netflix-landing-page-clone-gamma.vercel.app
 
 ## 🚀 Getting Started
 
