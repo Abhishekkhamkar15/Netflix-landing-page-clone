@@ -28,10 +28,16 @@ A responsive clone of the Netflix landing page built using **HTML** and **CSS** 
 
 deploy on vercel
 
-link:- netflix-landing-page-clone-gamma.vercel.app
+link:- https://netflix-landing-page-clone-gamma.vercel.app
 
 ## 🚀 Getting Started
 
 1. Clone the repo:
    ```bash
    git clone https://github.com/abhishekkhamkar15/netflix-landing-page-clone.git
+
+# Netflix Landing Page UI Clone
+
+A responsive clone of the Netflix landing page built using **HTML** and **CSS**.
+
+🔴 **Live Demo:** [https://netflix-landing-page-clone-gamma.vercel.app](https://netflix-landing-page-clone-gamma.vercel.app)
